@@ -1,0 +1,57 @@
+.loading {
+    padding: 80px;
+    text-align: center;
+    color: #888;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.listWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    text-decoration: none;
+    width: calc(25% - 15%); /* 한 줄에 4개 */
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.info {
+    padding: 12px 16px 16px;
+}
+
+.name {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-weight: bold;
+    color: #2563eb;
+}
